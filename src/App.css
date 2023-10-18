@@ -1,0 +1,19 @@
+.subhead {
+  margin-block-start: var(--spacing-small);
+  color: var(--color-text-subdued);
+  font-size: var(--font-size-large);
+  max-width: 50ch;
+}
+
+.subhead + .rooms-list {
+  margin-block-start: var(--spacing-xlarge);
+}
+
+.rooms-list {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
+  gap: 36px 20px;
+}

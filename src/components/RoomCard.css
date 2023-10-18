@@ -1,0 +1,25 @@
+
+.room-details {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.room-spots {
+    color: var(--color-text-brand);
+}
+
+.room-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-small)
+}
+
+.room-card img {
+    aspect-ratio: 16/10;
+    border-radius: var(--border-radius-large);
+}
+
+.room-card .room-name {
+    font-weight: var(--font-weight-bold);
+    margin-block-end: var(--spacing-small)
+}
